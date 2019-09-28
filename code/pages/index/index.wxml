@@ -1,0 +1,6 @@
+<!-- 用来显示 被选择的图片的 -->
+<image mode="widthFix" src="{{src}}"></image>
+<!-- 选择相册图片 -->
+<button bindtap="handleTap">选择图片</button>
+<!-- 跳转到 结果页面 -->
+<button bindtap="handleCreateFlag">生成小红旗</button>

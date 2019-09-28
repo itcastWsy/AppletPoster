@@ -1,0 +1,6 @@
+<!-- canvas 标签-->
+<canvas class="cas" style="width:{{canvasWidth}};height:{{canvasHeight}};" canvas-id="firstCanvas"></canvas>
+<!-- 用来显示 合成成功的图片 -->
+<image class="res_image" mode="widthFix" src="{{resSrc}}"></image>
+<!-- 点击下载图片 -->
+<button bindtap="handleSave">下载图片</button>
